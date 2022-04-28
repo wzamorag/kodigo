@@ -1,7 +1,7 @@
 <?php
 
 include_once 'vistas/clientes.php';
-
+ 
 class ApiClientes{
     
     
@@ -28,7 +28,6 @@ class ApiClientes{
 		}else{
 			echo json_encode(array('mensaje'=>'No hay registros'));
 		}
-	}
-       
+	}      
 }
 ?>

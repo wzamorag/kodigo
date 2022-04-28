@@ -14,8 +14,11 @@
 
     <?php
     include_once 'modelo/ApiClientes.php';
+    include_once 'modelo/ApiContactos.php';
     $api = new ApiClientes();
+    $apicon=new ApiContactos();
     $api->getAll();
+    $apicon->getAll();
     ?>
 </form>
     </body>
